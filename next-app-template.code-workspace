@@ -5,8 +5,16 @@
 		}
 	],
 	"settings": {
+		// Format with biome
 		"editor.defaultFormatter": "biomejs.biome",
+		// Match Biome's indentation settings
 		"editor.tabSize": 2,
-		"editor.insertSpaces": false
+		"editor.insertSpaces": false,
+		// Format on save and paste
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": true
+	},
+	"extensions": {
+		"recommendations": ["biomejs.biome"]
 	}
 }
