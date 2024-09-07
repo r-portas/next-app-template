@@ -1,15 +1,7 @@
 {
-	"$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
-	"files": {
-		"ignore": [".next", "out", "node_modules"]
-	},
-	"organizeImports": {
-		"enabled": true
-	},
-	"linter": {
-		"enabled": true,
-		"rules": {
-			"recommended": true
-		}
-	}
+  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "extends": ["@royportas/configs/biome"],
+  "files": {
+    "ignore": [".next", "out", "node_modules"]
+  }
 }

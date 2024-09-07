@@ -1,26 +1,27 @@
 {
-	"name": "next-app-template",
-	"version": "0.1.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev --turbo",
-		"build": "next build",
-		"start": "next start",
-		"format": "biome format --write .",
-		"lint": "biome lint ."
-	},
-	"dependencies": {
-		"@mui/material-nextjs": "^5.16.6",
-		"@royportas/design-system": "^1.2.0",
-		"next": "15.0.0-rc.0",
-		"react": "19.0.0-rc-f994737d14-20240522",
-		"react-dom": "19.0.0-rc-f994737d14-20240522"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.8.3",
-		"@types/node": "^20.15.0",
-		"@types/react": "^18.3.3",
-		"@types/react-dom": "^18.3.0",
-		"typescript": "^5.5.4"
-	}
+  "name": "next-app-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "format": "biome format --write .",
+    "lint": "biome lint ."
+  },
+  "dependencies": {
+    "@mui/material-nextjs": "^6.0.2",
+    "@royportas/design-system": "^2.0.0",
+    "next": "14.2.8",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@royportas/configs": "^0.1.0",
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.4"
+  }
 }

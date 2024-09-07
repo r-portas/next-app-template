@@ -16,7 +16,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body>
 				<AppRouterCacheProvider>
-					<ThemeProvider theme="dark">{children}</ThemeProvider>
+					<ThemeProvider>{children}</ThemeProvider>
 				</AppRouterCacheProvider>
 			</body>
 		</html>
