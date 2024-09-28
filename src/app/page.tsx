@@ -1,7 +1,10 @@
+import { LandingPage } from "@royportas/design-system";
+
 export default function Home() {
   return (
-    <main>
-      <div>Hello world!</div>
-    </main>
+    <LandingPage
+      title="Roy's Next App Template"
+      subtitle="Edit the page.tsx file to get started"
+    />
   );
 }
